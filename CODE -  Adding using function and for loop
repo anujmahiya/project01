@@ -1,0 +1,17 @@
+def add(a,b):
+    result = a+b
+    print(result)
+    
+lst =[]
+size = int(input("enter the size of list"))
+for i in range(size):
+    element = int(input("enter the element"))
+    list.append(element)
+print(lst)
+
+for i in range(len(lst)):
+    if i ==len(lst)-1:
+        break
+    else:
+        add(lst[i],lst[i+1])
+        
